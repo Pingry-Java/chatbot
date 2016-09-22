@@ -33,7 +33,7 @@ import java.util.Scanner;
  		}
  		
  		String answer = "anything other than bye"; 
- 		while (! answer.equals("bye") || ! answer.equals("Bye"))) // can't use != because that comapres references 
+ 		while (! (answer.equals("bye") || ! answer.equals("Bye"))) // can't use != because that comapres references 
  		{    
  				System.out.println("Tell me one of your hobbies or say \"bye\" to exit ");
  				answer = keyboard.nextLine();
